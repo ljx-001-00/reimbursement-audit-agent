@@ -96,6 +96,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\安装环境.ps1
 - **不含**打包产物（`报销审核智能体.exe`、`_internal/` 运行时、`报销审核_开箱即用.zip`、演示视频）。仓库只保留可复现的源码与资源；便携版请按需自行用 `build.py` + `requirements-build.txt` 构建。
 - **无密钥泄露**：源码中不含任何真实 API Key；`tests/` 里的 `test-secret-DO-NOT-SAVE` 之类均为测试用假串，用于验证密钥不会被持久化。
 - 第三方组件的许可与声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 与 `assets/licenses/`。
+- 本项目以 [MIT 协议](LICENSE) 开源；第三方组件（RapidOCR、onnxruntime、OpenCV、Pillow、ReportLab 等）保留各自原有许可，详见 `assets/licenses/`。
 
 ## 边界
 
