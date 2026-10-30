@@ -1,0 +1,81 @@
+[
+  {
+    "id": "TEST-PASS",
+    "amount": "113.00",
+    "files": [
+      "正常普通发票.pdf",
+      "报销申请.pdf",
+      "付款凭证.pdf"
+    ],
+    "expected": "预审通过"
+  },
+  {
+    "id": "TEST-SPECIAL",
+    "amount": "325.00",
+    "files": [
+      "专票多明细.pdf",
+      "报销申请.pdf",
+      "付款凭证.pdf"
+    ],
+    "expected": "预审通过"
+  },
+  {
+    "id": "TEST-MULTI",
+    "amount": "438.00",
+    "files": [
+      "正常普通发票.pdf",
+      "专票多明细.pdf",
+      "报销申请.pdf",
+      "付款凭证.pdf"
+    ],
+    "expected": "预审通过"
+  },
+  {
+    "id": "TEST-PAGES",
+    "amount": "226.00",
+    "files": [
+      "多页两张发票.pdf",
+      "报销申请.pdf",
+      "付款凭证.pdf"
+    ],
+    "expected": "预审通过"
+  },
+  {
+    "id": "TEST-DIFFERENCE",
+    "amount": "100.00",
+    "files": [
+      "正常普通发票.pdf",
+      "报销申请.pdf",
+      "付款凭证.pdf"
+    ],
+    "expected": "不通过"
+  },
+  {
+    "id": "TEST-MISSING",
+    "amount": "113.00",
+    "files": [
+      "正常普通发票.pdf"
+    ],
+    "expected": "不通过"
+  },
+  {
+    "id": "TEST-SCAN",
+    "amount": "325.00",
+    "files": [
+      "扫描专票.pdf",
+      "报销申请.pdf",
+      "付款凭证.pdf"
+    ],
+    "expected": "预审通过"
+  },
+  {
+    "id": "TEST-JPG",
+    "amount": "325.00",
+    "files": [
+      "专票图片.jpg",
+      "报销申请.pdf",
+      "付款凭证.pdf"
+    ],
+    "expected": "预审通过"
+  }
+]

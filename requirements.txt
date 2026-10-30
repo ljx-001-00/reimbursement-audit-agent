@@ -1,0 +1,37 @@
+# Runtime dependencies. Target interpreter: CPython 3.10 x64, matching the bundled
+# _internal/python310.dll of the portable release.
+# numpy / onnxruntime / shapely must be versions that actually publish a cp310 wheel:
+# numpy==2.5.4, onnxruntime==1.31.0 and shapely==2.2.0 have no cp310 distribution at
+# all, so the original pins could not be installed on the documented interpreter
+# (they were frozen from a Python 3.12/3.13 environment). The shipped build really
+# runs numpy 2.2.6 / onnxruntime 1.23.2 (see matching dist-info in _internal), and
+# shapely is pinned to the newest cp310 release, 2.1.2.
+# Keep this file ASCII-only: on Windows pip reads requirement files with the ANSI
+# code page and dies with UnicodeDecodeError on UTF-8 Chinese comments.
+# Note: the onnxruntime wheel ships no VC/UCRT runtime DLLs, and on machines with an
+# older Visual C++ redistributable its extension module fails to load with WinError
+# 1114. assets/msvc/ holds the redistributable runtime files that build.py copies into
+# _internal/onnxruntime/capi, which is what makes OCR work on such machines.
+certifi==2026.7.22
+charset-normalizer==3.5.2
+colorama==0.4.6
+colorlog==6.12.0
+flatbuffers==25.12.19
+idna==3.20
+numpy==2.2.6
+omegaconf==2.4.0
+onnxruntime==1.23.2
+opencv-python-headless==4.11.0.86
+packaging==26.3
+pillow==12.3.0
+protobuf==7.36.2
+pyclipper==1.4.0
+pypdfium2==5.14.0
+PyYAML==6.0.3
+rapidocr==3.10.0
+reportlab==5.0.1
+requests==2.34.2
+shapely==2.1.2
+six==1.17.0
+tqdm==4.70.1
+urllib3==2.8.0

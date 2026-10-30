@@ -1,0 +1,888 @@
+{
+  "version": 1,
+  "policy": {
+    "company_name": "北京蓝海智能科技有限公司",
+    "company_tax_id": "91110108MA01XYZ7K9",
+    "max_days": 90,
+    "required_attachments": [
+      "发票",
+      "报销申请",
+      "付款凭证"
+    ]
+  },
+  "applications": [
+    {
+      "id": "BX-2026-0427-001",
+      "applicant": "周文翰",
+      "department": "技术研发部",
+      "submitted_on": "2026-04-20",
+      "requested_amount": "10000.00",
+      "documents": [
+        {
+          "path": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-01.pdf",
+          "category": "发票",
+          "invoices": [
+            {
+              "source": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-01.pdf",
+              "page": 1,
+              "kind": "电子普通发票",
+              "fields": {
+                "invoice_number": "25112000000100012345",
+                "invoice_date": "2025-11-15",
+                "buyer_name": "北京蓝海智能科技有限公司",
+                "seller_name": "上海智慧云科技有限公司",
+                "buyer_tax_id": "91110108MA01XYZ7K9",
+                "seller_tax_id": "91310115MA1K7N0203",
+                "amount": "9900.99",
+                "tax_amount": "99.01",
+                "total": "10000.00",
+                "uppercase_total": "壹万圆整",
+                "tax_rate": "1%",
+                "invoice_code": ""
+              },
+              "items": [
+                {
+                  "name": "*软件开发服务*开发费 次",
+                  "quantity": "1",
+                  "unit_price": "9900.99",
+                  "amount": "9900.99",
+                  "tax_rate": "1%",
+                  "tax_amount": "99.01"
+                }
+              ],
+              "evidence": {
+                "kind": "PDF文字层: 电子发票(普通发票)",
+                "invoice_number": "PDF文字层: 发票号码:25112000000100012345",
+                "invoice_date": "PDF文字层: 开票日期:2025年11月15日",
+                "buyer_name": "PDF文字层: 名称:北京蓝海智能科技有限公司",
+                "seller_name": "PDF文字层: 名称:上海智慧云科技有限公司",
+                "buyer_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91110108MA01XYZ7K9",
+                "seller_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91310115MA1K7N0203",
+                "amount": "PDF文字层: \n合 计 ¥9900.99 ¥99.01",
+                "tax_amount": "PDF文字层: \n合 计 ¥9900.99 ¥99.01",
+                "total": "PDF文字层: 小写)¥10000.00",
+                "uppercase_total": "PDF文字层: 大写)⊗壹万圆整",
+                "tax_rate": "PDF文字层: 明细税率 1%"
+              },
+              "uncertain": [],
+              "confirmed": [],
+              "warnings": [],
+              "edits": [
+                {
+                  "time": "2026-10-26T17:21:37",
+                  "field": "buyer_name",
+                  "before": "北京蓝海智能科技有限公司",
+                  "after": "北京蓝海智能科技有限公司（界面验收）"
+                },
+                {
+                  "time": "2026-10-26T17:21:37",
+                  "field": "buyer_name",
+                  "before": "北京蓝海智能科技有限公司（界面验收）",
+                  "after": "北京蓝海智能科技有限公司"
+                },
+                {
+                  "time": "2026-10-26T17:21:37",
+                  "field": "items",
+                  "before": [
+                    {
+                      "name": "*软件开发服务*开发费 次",
+                      "quantity": "1",
+                      "unit_price": "9900.99",
+                      "amount": "9900.99",
+                      "tax_rate": "1%",
+                      "tax_amount": "99.01"
+                    }
+                  ],
+                  "after": [
+                    {
+                      "name": "*软件开发服务*开发费 次",
+                      "quantity": "1",
+                      "unit_price": "9900.99",
+                      "amount": "9900.99",
+                      "tax_rate": "1%",
+                      "tax_amount": "99.01"
+                    },
+                    {
+                      "name": "界面验收项目",
+                      "quantity": "2",
+                      "unit_price": "5.00",
+                      "amount": "10.00",
+                      "tax_rate": "0%",
+                      "tax_amount": "0.00"
+                    }
+                  ]
+                },
+                {
+                  "time": "2026-10-26T17:21:37",
+                  "field": "items",
+                  "before": [
+                    {
+                      "name": "*软件开发服务*开发费 次",
+                      "quantity": "1",
+                      "unit_price": "9900.99",
+                      "amount": "9900.99",
+                      "tax_rate": "1%",
+                      "tax_amount": "99.01"
+                    },
+                    {
+                      "name": "界面验收项目",
+                      "quantity": "2",
+                      "unit_price": "5.00",
+                      "amount": "10.00",
+                      "tax_rate": "0%",
+                      "tax_amount": "0.00"
+                    }
+                  ],
+                  "after": [
+                    {
+                      "name": "*软件开发服务*开发费 次",
+                      "quantity": "1",
+                      "unit_price": "9900.99",
+                      "amount": "9900.99",
+                      "tax_rate": "1%",
+                      "tax_amount": "99.01"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "--- 第1页 PDF文字层 ---\n购\r\n买\r\n方\r\n信\r\n息\r\n名 称: 北京蓝海智能科技有限公司 销\r\n售\r\n方\r\n信\r\n息\r\n名 称: 上海智慧云科技有限公司\r\n统一社会信用代码/\r\n纳税人识别号:\r\n91110108MA01XYZ7K9 统一社会信用代码/\r\n纳税人识别号:\r\n91310115MA1K7N0203\r\n项目名称 规格型号\r\n单\r\n位\r\n数 量 单 价 / 金 额 / 税率 / 税额\r\n*软件开发服务*开发费 次 1 单价 9900.99 | 金额 9900.99 | 税率 1% | 税额 99.01\r\n合 计 ¥9900.99 ¥99.01\r\n价税合计(大写) ⊗ 壹万圆整 (小写)¥10000.00\r\n备\r\n注\r\n销方开户银行:中国工商银行上海市分行漕河泾支行 | 银行账号:1001086929300087231\r\n收款人:陈志远 复核人:王慧敏\r\n开票人:陈志远\r\nQR\r\n发票号码:25112000000100012345 电 子 发 票 ( 普 通 发 票 ) 开票日期:2025年11月15日",
+          "error": "",
+          "pages": 1,
+          "ai_import": {},
+          "application_fields": {}
+        }
+      ],
+      "checks": [],
+      "events": [
+        "演示申请信息来自参考结果单基本信息；发票字段与结论均重新识别计算。原始附件未提供，按缺失处理。",
+        "独立提取演示原票：INV-01.pdf",
+        "17:21:36 本地工具：提取单据",
+        "17:21:36 规则工具：校验金额、抬头、日期和附件",
+        "17:21:36 报告工具：生成结构化审核摘要",
+        "17:21:36 审核完成：不通过；可导出 PDF",
+        "17:21:37 数据已修改，旧审核结果作废。",
+        "人工确认本票全部页面及明细：INV-01.pdf 第1页；原识别提醒：界面验收：核对多页明细"
+      ],
+      "ai_summary": "",
+      "model_note": "",
+      "mode": "等待审核"
+    },
+    {
+      "id": "BX-2026-0427-002",
+      "applicant": "李欣怡",
+      "department": "行政人事部",
+      "submitted_on": "2026-04-21",
+      "requested_amount": "3390.00",
+      "documents": [
+        {
+          "path": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-02.pdf",
+          "category": "发票",
+          "invoices": [
+            {
+              "source": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-02.pdf",
+              "page": 1,
+              "kind": "电子普通发票",
+              "fields": {
+                "invoice_number": "25112000000100023456",
+                "invoice_date": "2025-12-08",
+                "buyer_name": "北京蓝海智能科技有限公司",
+                "seller_name": "北京华信办公设备有限公司",
+                "buyer_tax_id": "91110108MA01XYZ7K9",
+                "seller_tax_id": "91110105MA0028XQ4N",
+                "amount": "3000.00",
+                "tax_amount": "390.00",
+                "total": "3390.00",
+                "uppercase_total": "叁仟叁佰玖拾圆整",
+                "tax_rate": "13%"
+              },
+              "items": [
+                {
+                  "name": "*办公用品*A4复印纸 70g/500张 盒",
+                  "quantity": "100",
+                  "unit_price": "30.00",
+                  "amount": "3000.00",
+                  "tax_rate": "13%",
+                  "tax_amount": "390.00"
+                }
+              ],
+              "evidence": {
+                "kind": "PDF文字层: 电子发票(普通发票)",
+                "invoice_number": "PDF文字层: 发票号码:25112000000100023456",
+                "invoice_date": "PDF文字层: 开票日期:2025年12月08日",
+                "buyer_name": "PDF文字层: 名称:北京蓝海智能科技有限公司",
+                "seller_name": "PDF文字层: 名称:北京华信办公设备有限公司",
+                "buyer_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91110108MA01XYZ7K9",
+                "seller_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91110105MA0028XQ4N",
+                "amount": "PDF文字层: \n合 计 ¥3000.00 ¥390.00",
+                "tax_amount": "PDF文字层: \n合 计 ¥3000.00 ¥390.00",
+                "total": "PDF文字层: 小写)¥3390.00",
+                "uppercase_total": "PDF文字层: 大写)⊗叁仟叁佰玖拾圆整",
+                "tax_rate": "PDF文字层: 明细税率 13%"
+              },
+              "uncertain": [],
+              "confirmed": [],
+              "warnings": [],
+              "edits": []
+            }
+          ],
+          "text": "--- 第1页 PDF文字层 ---\n购\r\n买\r\n方\r\n信\r\n息\r\n名 称: 北京蓝海智能科技有限公司 销\r\n售\r\n方\r\n信\r\n息\r\n名 称: 北京华信办公设备有限公司\r\n统一社会信用代码/\r\n纳税人识别号:\r\n91110108MA01XYZ7K9 统一社会信用代码/\r\n纳税人识别号:\r\n91110105MA0028XQ4N\r\n项目名称 规格型号\r\n单\r\n位\r\n数 量 单 价 / 金 额 / 税率 / 税额\r\n*办公用品*A4复印纸 70g/500张 盒 100 单价 30.00 | 金额 3000.00 | 税率 13% | 税额 390.00\r\n合 计 ¥3000.00 ¥390.00\r\n价税合计(大写) ⊗ 叁仟叁佰玖拾圆整 (小写)¥3390.00\r\n备\r\n注\r\n销方开户银行:中国建设银行北京海淀支行 | 银行账号:1100100100100210066\r\n收款人:李建国 复核人:周晓雯\r\n开票人:李建国\r\nQR\r\n发票号码:25112000000100023456 电 子 发 票 ( 普 通 发 票 ) 开票日期:2025年12月08日",
+          "error": "",
+          "pages": 1,
+          "ai_import": {},
+          "application_fields": {}
+        }
+      ],
+      "checks": [],
+      "events": [
+        "演示申请信息来自参考结果单基本信息；发票字段与结论均重新识别计算。原始附件未提供，按缺失处理。",
+        "独立提取演示原票：INV-02.pdf",
+        "17:21:36 本地工具：提取单据",
+        "17:21:36 规则工具：校验金额、抬头、日期和附件",
+        "17:21:36 报告工具：生成结构化审核摘要",
+        "17:21:36 审核完成：不通过；可导出 PDF",
+        "17:21:37 数据已修改，旧审核结果作废。"
+      ],
+      "ai_summary": "",
+      "model_note": "",
+      "mode": "等待审核"
+    },
+    {
+      "id": "BX-2026-0427-003",
+      "applicant": "陈智浩",
+      "department": "战略投资部",
+      "submitted_on": "2026-04-22",
+      "requested_amount": "15000.00",
+      "documents": [
+        {
+          "path": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-03.pdf",
+          "category": "发票",
+          "invoices": [
+            {
+              "source": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-03.pdf",
+              "page": 1,
+              "kind": "电子普通发票",
+              "fields": {
+                "invoice_number": "25112000000100034567",
+                "invoice_date": "2025-10-20",
+                "buyer_name": "张文博",
+                "seller_name": "深圳锐思咨询有限公司",
+                "buyer_tax_id": "",
+                "seller_tax_id": "91440300MA5DQ3X87L",
+                "amount": "14563.11",
+                "tax_amount": "436.89",
+                "total": "15000.00",
+                "uppercase_total": "壹万伍仟圆整",
+                "tax_rate": "3%"
+              },
+              "items": [
+                {
+                  "name": "*咨询服务*技术咨询费 次",
+                  "quantity": "1",
+                  "unit_price": "14563.11",
+                  "amount": "14563.11",
+                  "tax_rate": "3%",
+                  "tax_amount": "436.89"
+                }
+              ],
+              "evidence": {
+                "kind": "PDF文字层: 电子发票(普通发票)",
+                "invoice_number": "PDF文字层: 发票号码:25112000000100034567",
+                "invoice_date": "PDF文字层: 开票日期:2025年10月20日",
+                "buyer_name": "PDF文字层: 名称:张文博",
+                "seller_name": "PDF文字层: 名称:深圳锐思咨询有限公司",
+                "buyer_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:",
+                "seller_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91440300MA5DQ3X87L",
+                "amount": "PDF文字层: \n合 计 ¥14563.11 ¥436.89",
+                "tax_amount": "PDF文字层: \n合 计 ¥14563.11 ¥436.89",
+                "total": "PDF文字层: 小写)¥15000.00",
+                "uppercase_total": "PDF文字层: 大写)⊗壹万伍仟圆整",
+                "tax_rate": "PDF文字层: 明细税率 3%"
+              },
+              "uncertain": [],
+              "confirmed": [
+                "buyer_tax_id"
+              ],
+              "warnings": [],
+              "edits": []
+            }
+          ],
+          "text": "--- 第1页 PDF文字层 ---\n购\r\n买\r\n方\r\n信\r\n息\r\n名 称: 张文博 销\r\n售\r\n方\r\n信\r\n息\r\n名 称: 深圳锐思咨询有限公司\r\n统一社会信用代码/\r\n纳税人识别号:\r\n统一社会信用代码/\r\n纳税人识别号:\r\n91440300MA5DQ3X87L\r\n项目名称 规格型号\r\n单\r\n位\r\n数 量 单 价 / 金 额 / 税率 / 税额\r\n*咨询服务*技术咨询费 次 1 单价 14563.11 | 金额 14563.11 | 税率 3% | 税额 436.89\r\n合 计 ¥14563.11 ¥436.89\r\n价税合计(大写) ⊗ 壹万伍仟圆整 (小写)¥15000.00\r\n备\r\n注\r\n销方开户银行:招商银行深圳科技园支行 | 银行账号:7559022193100015\r\n收款人:黄志强 复核人:林雅婷\r\n开票人:黄志强\r\nQR\r\n发票号码:25112000000100034567 电 子 发 票 ( 普 通 发 票 ) 开票日期:2025年10月20日",
+          "error": "",
+          "pages": 1,
+          "ai_import": {},
+          "application_fields": {}
+        }
+      ],
+      "checks": [],
+      "events": [
+        "演示申请信息来自参考结果单基本信息；发票字段与结论均重新识别计算。原始附件未提供，按缺失处理。",
+        "独立提取演示原票：INV-03.pdf",
+        "17:21:36 本地工具：提取单据",
+        "17:21:36 规则工具：校验金额、抬头、日期和附件",
+        "17:21:36 报告工具：生成结构化审核摘要",
+        "17:21:36 审核完成：不通过；可导出 PDF",
+        "17:21:37 数据已修改，旧审核结果作废。"
+      ],
+      "ai_summary": "",
+      "model_note": "",
+      "mode": "等待审核"
+    },
+    {
+      "id": "BX-2026-0427-004",
+      "applicant": "孙璐",
+      "department": "人才发展部",
+      "submitted_on": "2026-04-23",
+      "requested_amount": "8000.00",
+      "documents": [
+        {
+          "path": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-04.pdf",
+          "category": "发票",
+          "invoices": [
+            {
+              "source": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-04.pdf",
+              "page": 1,
+              "kind": "电子普通发票",
+              "fields": {
+                "invoice_number": "25112000000100045678",
+                "invoice_date": "2026-01-10",
+                "buyer_name": "北京蓝海智能科技有限公司",
+                "seller_name": "杭州博学教育咨询有限公司",
+                "buyer_tax_id": "91110108MA01XYZ7K9",
+                "seller_tax_id": "91330106MA28RHQK19",
+                "amount": "7766.99",
+                "tax_amount": "233.01",
+                "total": "8000.00",
+                "uppercase_total": "伍仟圆整",
+                "tax_rate": "3%"
+              },
+              "items": [
+                {
+                  "name": "*非学历教育服务*员工培 训费 次",
+                  "quantity": "1",
+                  "unit_price": "7766.99",
+                  "amount": "7766.99",
+                  "tax_rate": "3%",
+                  "tax_amount": "233.01"
+                }
+              ],
+              "evidence": {
+                "kind": "PDF文字层: 电子发票(普通发票)",
+                "invoice_number": "PDF文字层: 发票号码:25112000000100045678",
+                "invoice_date": "PDF文字层: 开票日期:2026年01月10日",
+                "buyer_name": "PDF文字层: 名称:北京蓝海智能科技有限公司",
+                "seller_name": "PDF文字层: 名称:杭州博学教育咨询有限公司",
+                "buyer_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91110108MA01XYZ7K9",
+                "seller_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91330106MA28RHQK19",
+                "amount": "PDF文字层: \n合 计 ¥7766.99 ¥233.01",
+                "tax_amount": "PDF文字层: \n合 计 ¥7766.99 ¥233.01",
+                "total": "PDF文字层: 小写)¥8000.00",
+                "uppercase_total": "PDF文字层: 大写)⊗伍仟圆整",
+                "tax_rate": "PDF文字层: 明细税率 3%"
+              },
+              "uncertain": [],
+              "confirmed": [],
+              "warnings": [],
+              "edits": []
+            }
+          ],
+          "text": "--- 第1页 PDF文字层 ---\n购\r\n买\r\n方\r\n信\r\n息\r\n名 称: 北京蓝海智能科技有限公司 销\r\n售\r\n方\r\n信\r\n息\r\n名 称: 杭州博学教育咨询有限公司\r\n统一社会信用代码/\r\n纳税人识别号:\r\n91110108MA01XYZ7K9 统一社会信用代码/\r\n纳税人识别号:\r\n91330106MA28RHQK19\r\n项目名称 规格型号\r\n单\r\n位\r\n数 量 单 价 / 金 额 / 税率 / 税额\r\n*非学历教育服务*员工培\r\n训费\r\n次 1 单价 7766.99 | 金额 7766.99 | 税率 3% | 税额 233.01\r\n合 计 ¥7766.99 ¥233.01\r\n价税合计(大写) ⊗ 伍仟圆整 (小写)¥8000.00\r\n备\r\n注\r\n销方开户银行:中国银行杭州西溪支行 | 银行账号:366677889900112233\r\n收款人:赵宏远 复核人:孙美琪\r\n开票人:赵宏远\r\nQR\r\n发票号码:25112000000100045678 电 子 发 票 ( 普 通 发 票 ) 开票日期:2026年01月10日",
+          "error": "",
+          "pages": 1,
+          "ai_import": {},
+          "application_fields": {}
+        }
+      ],
+      "checks": [],
+      "events": [
+        "演示申请信息来自参考结果单基本信息；发票字段与结论均重新识别计算。原始附件未提供，按缺失处理。",
+        "独立提取演示原票：INV-04.pdf",
+        "17:21:36 本地工具：提取单据",
+        "17:21:36 规则工具：校验金额、抬头、日期和附件",
+        "17:21:36 报告工具：生成结构化审核摘要",
+        "17:21:36 审核完成：不通过；可导出 PDF",
+        "17:21:37 数据已修改，旧审核结果作废。"
+      ],
+      "ai_summary": "",
+      "model_note": "",
+      "mode": "等待审核"
+    },
+    {
+      "id": "BX-2026-0427-005",
+      "applicant": "王梓豪",
+      "department": "技术研发部",
+      "submitted_on": "2026-04-23",
+      "requested_amount": "6300.00",
+      "documents": [
+        {
+          "path": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-05.pdf",
+          "category": "发票",
+          "invoices": [
+            {
+              "source": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-05.pdf",
+              "page": 1,
+              "kind": "电子普通发票",
+              "fields": {
+                "invoice_number": "25112000000100056789",
+                "invoice_date": "2025-11-28",
+                "buyer_name": "北京蓝海智能科技有限公司",
+                "seller_name": "成都鼎信软件有限公司",
+                "buyer_tax_id": "91110108MA01XYZ7K9",
+                "seller_tax_id": "91510100MA6CL6X235",
+                "amount": "6000.00",
+                "tax_amount": "300.00",
+                "total": "6300.00",
+                "uppercase_total": "陆仟叁佰圆整",
+                "tax_rate": "6%"
+              },
+              "items": [
+                {
+                  "name": "*信息技术服务*软件维护 服务费 次",
+                  "quantity": "1",
+                  "unit_price": "6000.00",
+                  "amount": "6000.00",
+                  "tax_rate": "6%",
+                  "tax_amount": "300.00"
+                }
+              ],
+              "evidence": {
+                "kind": "PDF文字层: 电子发票(普通发票)",
+                "invoice_number": "PDF文字层: 发票号码:25112000000100056789",
+                "invoice_date": "PDF文字层: 开票日期:2025年11月28日",
+                "buyer_name": "PDF文字层: 名称:北京蓝海智能科技有限公司",
+                "seller_name": "PDF文字层: 名称:成都鼎信软件有限公司",
+                "buyer_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91110108MA01XYZ7K9",
+                "seller_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91510100MA6CL6X235",
+                "amount": "PDF文字层: \n合 计 ¥6000.00 ¥300.00",
+                "tax_amount": "PDF文字层: \n合 计 ¥6000.00 ¥300.00",
+                "total": "PDF文字层: 小写)¥6300.00",
+                "uppercase_total": "PDF文字层: 大写)⊗陆仟叁佰圆整",
+                "tax_rate": "PDF文字层: 明细税率 6%"
+              },
+              "uncertain": [],
+              "confirmed": [],
+              "warnings": [],
+              "edits": []
+            }
+          ],
+          "text": "--- 第1页 PDF文字层 ---\n购\r\n买\r\n方\r\n信\r\n息\r\n名 称: 北京蓝海智能科技有限公司 销\r\n售\r\n方\r\n信\r\n息\r\n名 称: 成都鼎信软件有限公司\r\n统一社会信用代码/\r\n纳税人识别号:\r\n91110108MA01XYZ7K9 统一社会信用代码/\r\n纳税人识别号:\r\n91510100MA6CL6X235\r\n项目名称 规格型号\r\n单\r\n位\r\n数 量 单 价 / 金 额 / 税率 / 税额\r\n*信息技术服务*软件维护\r\n服务费\r\n次 1 单价 6000.00 | 金额 6000.00 | 税率 6% | 税额 300.00\r\n合 计 ¥6000.00 ¥300.00\r\n价税合计(大写) ⊗ 陆仟叁佰圆整 (小写)¥6300.00\r\n备\r\n注\r\n销方开户银行:中国农业银行成都高新支行 | 银行账号:22011001040007511\r\n收款人:杨振华 复核人:邓佳怡\r\n开票人:杨振华\r\nQR\r\n发票号码:25112000000100056789 电 子 发 票 ( 普 通 发 票 ) 开票日期:2025年11月28日",
+          "error": "",
+          "pages": 1,
+          "ai_import": {},
+          "application_fields": {}
+        }
+      ],
+      "checks": [],
+      "events": [
+        "演示申请信息来自参考结果单基本信息；发票字段与结论均重新识别计算。原始附件未提供，按缺失处理。",
+        "独立提取演示原票：INV-05.pdf",
+        "17:21:36 本地工具：提取单据",
+        "17:21:36 规则工具：校验金额、抬头、日期和附件",
+        "17:21:36 报告工具：生成结构化审核摘要",
+        "17:21:36 审核完成：不通过；可导出 PDF",
+        "17:21:37 数据已修改，旧审核结果作废。"
+      ],
+      "ai_summary": "",
+      "model_note": "",
+      "mode": "等待审核"
+    },
+    {
+      "id": "BX-2026-0427-006",
+      "applicant": "黄佩瑶",
+      "department": "市场品牌部",
+      "submitted_on": "2026-04-24",
+      "requested_amount": "12500.00",
+      "documents": [
+        {
+          "path": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-06.pdf",
+          "category": "发票",
+          "invoices": [
+            {
+              "source": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-06.pdf",
+              "page": 1,
+              "kind": "电子普通发票",
+              "fields": {
+                "invoice_number": "25112000000100067890",
+                "invoice_date": "2025-12-15",
+                "buyer_name": "北京蓝海智能科技有限公司",
+                "seller_name": "广州创艺设计有限公司",
+                "buyer_tax_id": "91110108MA01XYZ7K9",
+                "seller_tax_id": "91440101MA9UJP5R63",
+                "amount": "11320.75",
+                "tax_amount": "679.25",
+                "total": "12500.00",
+                "uppercase_total": "壹万贰仟伍佰圆整",
+                "tax_rate": "6%"
+              },
+              "items": [
+                {
+                  "name": "*设计服务*平面设计服务 费 次",
+                  "quantity": "1",
+                  "unit_price": "11320.75",
+                  "amount": "11320.75",
+                  "tax_rate": "6%",
+                  "tax_amount": "679.25"
+                }
+              ],
+              "evidence": {
+                "kind": "PDF文字层: 电子发票(普通发票)",
+                "invoice_number": "PDF文字层: 发票号码:25112000000100067890",
+                "invoice_date": "PDF文字层: 开票日期:2025年12月15日",
+                "buyer_name": "PDF文字层: 名称:北京蓝海智能科技有限公司",
+                "seller_name": "PDF文字层: 名称:广州创艺设计有限公司",
+                "buyer_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91110108MA01XYZ7K9",
+                "seller_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91440101MA9UJP5R63",
+                "amount": "PDF文字层: \n合 计 ¥11320.75 ¥679.25",
+                "tax_amount": "PDF文字层: \n合 计 ¥11320.75 ¥679.25",
+                "total": "PDF文字层: 小写)¥12500.00",
+                "uppercase_total": "PDF文字层: 大写)⊗壹万贰仟伍佰圆整",
+                "tax_rate": "PDF文字层: 明细税率 6%"
+              },
+              "uncertain": [],
+              "confirmed": [],
+              "warnings": [],
+              "edits": []
+            }
+          ],
+          "text": "--- 第1页 PDF文字层 ---\n购\r\n买\r\n方\r\n信\r\n息\r\n名 称: 北京蓝海智能科技有限公司 销\r\n售\r\n方\r\n信\r\n息\r\n名 称: 广州创艺设计有限公司\r\n统一社会信用代码/\r\n纳税人识别号:\r\n91110108MA01XYZ7K9 统一社会信用代码/\r\n纳税人识别号:\r\n91440101MA9UJP5R63\r\n项目名称 规格型号\r\n单\r\n位\r\n数 量 单 价 / 金 额 / 税率 / 税额\r\n*设计服务*平面设计服务\r\n费\r\n次 1 单价 11320.75 | 金额 11320.75 | 税率 6% | 税额 679.25\r\n合 计 ¥11320.75 ¥679.25\r\n价税合计(大写) ⊗ 壹万贰仟伍佰圆整 (小写)¥12500.00\r\n备\r\n注\r\n销方开户银行:中国工商银行广州天河支行 | 银行账号:3602001029200876544\r\n收款人:潘思源 复核人:韩雪松\r\n开票人:潘思源\r\nQR\r\n发票号码:25112000000100067890 电 子 发 票 ( 普 通 发 票 ) 开票日期:2025年12月15日",
+          "error": "",
+          "pages": 1,
+          "ai_import": {},
+          "application_fields": {}
+        }
+      ],
+      "checks": [],
+      "events": [
+        "演示申请信息来自参考结果单基本信息；发票字段与结论均重新识别计算。原始附件未提供，按缺失处理。",
+        "独立提取演示原票：INV-06.pdf",
+        "17:21:36 本地工具：提取单据",
+        "17:21:36 规则工具：校验金额、抬头、日期和附件",
+        "17:21:36 报告工具：生成结构化审核摘要",
+        "17:21:36 审核完成：不通过；可导出 PDF",
+        "17:21:37 数据已修改，旧审核结果作废。"
+      ],
+      "ai_summary": "",
+      "model_note": "",
+      "mode": "等待审核"
+    },
+    {
+      "id": "BX-2026-0427-007",
+      "applicant": "刘海洋",
+      "department": "销售运营部",
+      "submitted_on": "2026-04-25",
+      "requested_amount": "5000.00",
+      "documents": [
+        {
+          "path": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-07.pdf",
+          "category": "发票",
+          "invoices": [
+            {
+              "source": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-07.pdf",
+              "page": 1,
+              "kind": "电子普通发票",
+              "fields": {
+                "invoice_number": "24062000000100078901",
+                "invoice_date": "2024-06-15",
+                "buyer_name": "北京蓝海智能科技有限公司",
+                "seller_name": "武汉会展服务有限公司",
+                "buyer_tax_id": "91110108MA01XYZ7K9",
+                "seller_tax_id": "91420100MAB7KQX021",
+                "amount": "4854.37",
+                "tax_amount": "145.63",
+                "total": "5000.00",
+                "uppercase_total": "伍仟圆整",
+                "tax_rate": "3%"
+              },
+              "items": [
+                {
+                  "name": "*会议服务*会议服务费 次",
+                  "quantity": "1",
+                  "unit_price": "4854.37",
+                  "amount": "4854.37",
+                  "tax_rate": "3%",
+                  "tax_amount": "145.63"
+                }
+              ],
+              "evidence": {
+                "kind": "PDF文字层: 电子发票(普通发票)",
+                "invoice_number": "PDF文字层: 发票号码:24062000000100078901",
+                "invoice_date": "PDF文字层: 开票日期:2024年06月15日",
+                "buyer_name": "PDF文字层: 名称:北京蓝海智能科技有限公司",
+                "seller_name": "PDF文字层: 名称:武汉会展服务有限公司",
+                "buyer_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91110108MA01XYZ7K9",
+                "seller_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91420100MAB7KQX021",
+                "amount": "PDF文字层: \n合 计 ¥4854.37 ¥145.63",
+                "tax_amount": "PDF文字层: \n合 计 ¥4854.37 ¥145.63",
+                "total": "PDF文字层: 小写)¥5000.00",
+                "uppercase_total": "PDF文字层: 大写)⊗伍仟圆整",
+                "tax_rate": "PDF文字层: 明细税率 3%"
+              },
+              "uncertain": [],
+              "confirmed": [],
+              "warnings": [],
+              "edits": []
+            }
+          ],
+          "text": "--- 第1页 PDF文字层 ---\n购\r\n买\r\n方\r\n信\r\n息\r\n名 称: 北京蓝海智能科技有限公司 销\r\n售\r\n方\r\n信\r\n息\r\n名 称: 武汉会展服务有限公司\r\n统一社会信用代码/\r\n纳税人识别号:\r\n91110108MA01XYZ7K9 统一社会信用代码/\r\n纳税人识别号:\r\n91420100MAB7KQX021\r\n项目名称 规格型号\r\n单\r\n位\r\n数 量 单 价 / 金 额 / 税率 / 税额\r\n*会议服务*会议服务费 次 1 单价 4854.37 | 金额 4854.37 | 税率 3% | 税额 145.63\r\n合 计 ¥4854.37 ¥145.63\r\n价税合计(大写) ⊗ 伍仟圆整 (小写)¥5000.00\r\n备\r\n注\r\n销方开户银行:交通银行武汉光谷支行 | 银行账号:424669000018110002347\r\n收款人:魏国强 复核人:高云霞\r\n开票人:魏国强\r\nQR\r\n发票号码:24062000000100078901 电 子 发 票 ( 普 通 发 票 ) 开票日期:2024年06月15日",
+          "error": "",
+          "pages": 1,
+          "ai_import": {},
+          "application_fields": {}
+        }
+      ],
+      "checks": [],
+      "events": [
+        "演示申请信息来自参考结果单基本信息；发票字段与结论均重新识别计算。原始附件未提供，按缺失处理。",
+        "独立提取演示原票：INV-07.pdf",
+        "17:21:36 本地工具：提取单据",
+        "17:21:36 规则工具：校验金额、抬头、日期和附件",
+        "17:21:36 报告工具：生成结构化审核摘要",
+        "17:21:36 审核完成：不通过；可导出 PDF",
+        "17:21:37 数据已修改，旧审核结果作废。"
+      ],
+      "ai_summary": "",
+      "model_note": "",
+      "mode": "等待审核"
+    },
+    {
+      "id": "BX-2026-0427-008",
+      "applicant": "吴晓萌",
+      "department": "法务合规部",
+      "submitted_on": "2026-04-25",
+      "requested_amount": "20000.00",
+      "documents": [
+        {
+          "path": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-08.pdf",
+          "category": "发票",
+          "invoices": [
+            {
+              "source": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-08.pdf",
+              "page": 1,
+              "kind": "电子普通发票",
+              "fields": {
+                "invoice_number": "25112000000100089012",
+                "invoice_date": "2026-02-18",
+                "buyer_name": "北京蓝海智能科技有限公司",
+                "seller_name": "南京泽明律师事务所",
+                "buyer_tax_id": "91110108MA01XYZ7K9",
+                "seller_tax_id": "",
+                "amount": "18867.92",
+                "tax_amount": "1132.08",
+                "total": "20000.00",
+                "uppercase_total": "贰万圆整",
+                "tax_rate": "6%"
+              },
+              "items": [
+                {
+                  "name": "*鉴证咨询服务*法律咨询 服务费 次",
+                  "quantity": "1",
+                  "unit_price": "18867.92",
+                  "amount": "18867.92",
+                  "tax_rate": "6%",
+                  "tax_amount": "1132.08"
+                }
+              ],
+              "evidence": {
+                "kind": "PDF文字层: 电子发票(普通发票)",
+                "invoice_number": "PDF文字层: 发票号码:25112000000100089012",
+                "invoice_date": "PDF文字层: 开票日期:2026年02月18日",
+                "buyer_name": "PDF文字层: 名称:北京蓝海智能科技有限公司",
+                "seller_name": "PDF文字层: 名称:南京泽明律师事务所",
+                "buyer_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:91110108MA01XYZ7K9",
+                "seller_tax_id": "PDF文字层: 统一社会信用代码/纳税人识别号:",
+                "amount": "PDF文字层: \n合 计 ¥18867.92 ¥1132.08",
+                "tax_amount": "PDF文字层: \n合 计 ¥18867.92 ¥1132.08",
+                "total": "PDF文字层: 小写)¥20000.00",
+                "uppercase_total": "PDF文字层: 大写)⊗贰万圆整",
+                "tax_rate": "PDF文字层: 明细税率 6%"
+              },
+              "uncertain": [],
+              "confirmed": [
+                "seller_tax_id"
+              ],
+              "warnings": [],
+              "edits": []
+            }
+          ],
+          "text": "--- 第1页 PDF文字层 ---\n购\r\n买\r\n方\r\n信\r\n息\r\n名 称: 北京蓝海智能科技有限公司 销\r\n售\r\n方\r\n信\r\n息\r\n名 称: 南京泽明律师事务所\r\n统一社会信用代码/\r\n纳税人识别号:\r\n91110108MA01XYZ7K9 统一社会信用代码/\r\n纳税人识别号:\r\n项目名称 规格型号\r\n单\r\n位\r\n数 量 单 价 / 金 额 / 税率 / 税额\r\n*鉴证咨询服务*法律咨询\r\n服务费\r\n次 1 单价 18867.92 | 金额 18867.92 | 税率 6% | 税额 1132.08\r\n合 计 ¥18867.92 ¥1132.08\r\n价税合计(大写) ⊗ 贰万圆整 (小写)¥20000.00\r\n备\r\n注\r\n销方开户银行:中信银行南京玄武支行 | 银行账号:8110001012600045332\r\n收款人:范立诚 复核人:苏婉清\r\n开票人:范立诚\r\nQR\r\n发票号码:25112000000100089012 电 子 发 票 ( 普 通 发 票 ) 开票日期:2026年02月18日",
+          "error": "",
+          "pages": 1,
+          "ai_import": {},
+          "application_fields": {}
+        }
+      ],
+      "checks": [],
+      "events": [
+        "演示申请信息来自参考结果单基本信息；发票字段与结论均重新识别计算。原始附件未提供，按缺失处理。",
+        "独立提取演示原票：INV-08.pdf",
+        "17:21:36 本地工具：提取单据",
+        "17:21:36 规则工具：校验金额、抬头、日期和附件",
+        "17:21:36 报告工具：生成结构化审核摘要",
+        "17:21:36 审核完成：不通过；可导出 PDF",
+        "17:21:37 数据已修改，旧审核结果作废。"
+      ],
+      "ai_summary": "",
+      "model_note": "",
+      "mode": "等待审核"
+    },
+    {
+      "id": "BX-2026-0427-009",
+      "applicant": "钱思源",
+      "department": "技术研发部",
+      "submitted_on": "2026-04-26",
+      "requested_amount": "4000.00",
+      "documents": [
+        {
+          "path": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-09.png",
+          "category": "发票",
+          "invoices": [
+            {
+              "source": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-09.png",
+              "page": 1,
+              "kind": "电子普通发票",
+              "fields": {
+                "invoice_number": "251120013579",
+                "invoice_date": "2026-01-22",
+                "buyer_name": "北京蓝海智能科技有限公司",
+                "seller_name": "西安博译翻译有限公司",
+                "buyer_tax_id": "91110108MA01XYZ7K9",
+                "seller_tax_id": "91610100MAC02NPK48",
+                "amount": "3883.50",
+                "tax_amount": "116.50",
+                "total": "4000.00",
+                "uppercase_total": "肆仟圆整",
+                "tax_rate": "3%"
+              },
+              "items": [
+                {
+                  "name": "*翻译服务*笔译服务费",
+                  "quantity": "1",
+                  "unit_price": "3883.50",
+                  "amount": "3883.50",
+                  "tax_rate": "3%",
+                  "tax_amount": "116.50"
+                }
+              ],
+              "evidence": {
+                "kind": "OCR: 普通发票",
+                "invoice_number": "OCR: 发票号码:251120013579",
+                "invoice_date": "OCR: 开票日期:2026年01月22日",
+                "buyer_name": "OCR: 名称:北京蓝海智能科技有限公司",
+                "seller_name": "OCR: 名称:西安博译翻译有限公司",
+                "buyer_tax_id": "OCR: 统一社会信用代码/纳税人识别号:91110108MA01XYZ7K9",
+                "seller_tax_id": "OCR: 纳税人识别号:91610100MAC02NPK48",
+                "amount": "OCR: \n合 计 ¥3883.50 ¥116.50",
+                "tax_amount": "OCR: \n合 计 ¥3883.50 ¥116.50",
+                "total": "OCR: 小写)¥4000.00",
+                "uppercase_total": "OCR: 大写)肆仟圆整",
+                "tax_rate": "OCR: 明细税率 3%"
+              },
+              "uncertain": [],
+              "confirmed": [],
+              "warnings": [],
+              "edits": []
+            }
+          ],
+          "text": "--- 第1页 OCR ---\n电子发票(普通发票 发票号码:251120013579\nQR\n开票日期:2026年01月22日\n陕西省税务局\n购买方信息 名 称: 北京蓝海智能科技有限公司 销售方信息 名 称: 西安博译翻译有限公司\n统一社会信用代码/ 统一社会信用代码/\n纳税人识别号: 91110108MA01XYZ7K9 纳税人识别号: 91610100MAC02NPK48\n项目名称 规格型号 单位次 数量 单价/金额/税率/税额\n*翻译服务*笔译服务费 1 单价 3883.50 金额3883.50 税率3% 税额116.50\n合 计 ¥3883.50 ¥116.50\n价税合计(大写) 肆仟圆整 (小写)¥4000.00\n备注 销方开户银行:中国邮政储蓄银行西安雁塔支行 | 银行账号:915001210010056789\n收款人:梁天野 复核人:曾婉柔\n开票人:梁天野",
+          "error": "",
+          "pages": 1,
+          "ai_import": {},
+          "application_fields": {}
+        }
+      ],
+      "checks": [],
+      "events": [
+        "演示申请信息来自参考结果单基本信息；发票字段与结论均重新识别计算。原始附件未提供，按缺失处理。",
+        "独立提取演示原票：INV-09.png",
+        "17:21:36 本地工具：提取单据",
+        "17:21:36 规则工具：校验金额、抬头、日期和附件",
+        "17:21:36 报告工具：生成结构化审核摘要",
+        "17:21:36 审核完成：不通过；可导出 PDF",
+        "17:21:37 数据已修改，旧审核结果作废。"
+      ],
+      "ai_summary": "",
+      "model_note": "",
+      "mode": "等待审核"
+    },
+    {
+      "id": "BX-2026-0427-010",
+      "applicant": "宋雅琪",
+      "department": "市场品牌部",
+      "submitted_on": "2026-04-26",
+      "requested_amount": "3180.00",
+      "documents": [
+        {
+          "path": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-10.png",
+          "category": "发票",
+          "invoices": [
+            {
+              "source": "C:\\Users\\HP\\WorkBuddy\\2026-10-26-15-47-45\\work\\报销审核源码\\dist\\报销审核智能体\\_internal\\data\\invoices\\INV-10.png",
+              "page": 1,
+              "kind": "电子普通发票",
+              "fields": {
+                "invoice_number": "25112000000100109876",
+                "invoice_date": "2026-02-25",
+                "buyer_name": "北京蓝海智能科技有限公司",
+                "seller_name": "天津恒美印刷有限公司",
+                "buyer_tax_id": "91110108MA01XYZ7K9",
+                "seller_tax_id": "91120104MA070E3K58",
+                "amount": "3000.00",
+                "tax_amount": "180.00",
+                "total": "3180.00",
+                "uppercase_total": "叁仟壹佰捌拾圆整",
+                "tax_rate": "6%"
+              },
+              "items": [
+                {
+                  "name": "*印刷服务*名片印刷费 200g铜版纸",
+                  "quantity": "50",
+                  "unit_price": "50.00",
+                  "amount": "3000.00",
+                  "tax_rate": "6%",
+                  "tax_amount": "180.00"
+                }
+              ],
+              "evidence": {
+                "kind": "OCR: 电子发票(普通发票)",
+                "invoice_number": "OCR: 发票号码:25112000000100109876",
+                "invoice_date": "OCR: 开票日期:2026年02月25日",
+                "buyer_name": "OCR: 名称:北京蓝海智能科技有限公司",
+                "seller_name": "OCR: 名称:天津恒美印刷有限公司",
+                "buyer_tax_id": "OCR: 统一社会信用代码/纳税人识别号:91110108MA01XYZ7K9",
+                "seller_tax_id": "OCR: 纳税人识别号:91120104MA070E3K58",
+                "amount": "OCR: \n合 计 ¥3000.00 ¥180.00",
+                "tax_amount": "OCR: \n合 计 ¥3000.00 ¥180.00",
+                "total": "OCR: 小写)¥3180.00",
+                "uppercase_total": "OCR: 大写)叁仟壹佰捌拾圆整",
+                "tax_rate": "OCR: 明细税率 6%"
+              },
+              "uncertain": [],
+              "confirmed": [],
+              "warnings": [],
+              "edits": []
+            }
+          ],
+          "text": "--- 第1页 OCR ---\n电子发票(普通发票) 发票号码:25112000000100109876\nQR\n开票日期:2026年02月25日\n天津市税务局\n购买方信息 名 称: 北京蓝海智能科技有限公司 销售方信息 名 称: 天津恒美印刷有限公司\n统一社会信用代码/ 统一社会信用代码/\n纳税人识别号: 91110108MA01XYZ7K9 纳税人识别号: 91120104MA070E3K58\n项目名称 规格型号 单位盒 数量 单价/金额/税率/税额\n*印刷服务*名片印刷费 200g铜版纸 50 单价 50.00 |金额 3000.00 |税率 6% 税额180.00\n合 计 ¥3000.00 ¥180.00\n价税合计(大写) 叁仟壹佰捌拾圆整 (小写)¥3180.00\n备注 销方开户银行:兴业银行天津滨海支行 银行账号:402091020019001102266\n收款人:卢伟杰 复核人:贺心怡\n开票人:卢伟杰",
+          "error": "",
+          "pages": 1,
+          "ai_import": {},
+          "application_fields": {}
+        }
+      ],
+      "checks": [],
+      "events": [
+        "演示申请信息来自参考结果单基本信息；发票字段与结论均重新识别计算。原始附件未提供，按缺失处理。",
+        "独立提取演示原票：INV-10.png",
+        "17:21:36 本地工具：提取单据",
+        "17:21:36 规则工具：校验金额、抬头、日期和附件",
+        "17:21:36 报告工具：生成结构化审核摘要",
+        "17:21:36 审核完成：不通过；可导出 PDF",
+        "17:21:37 数据已修改，旧审核结果作废。"
+      ],
+      "ai_summary": "",
+      "model_note": "",
+      "mode": "等待审核"
+    }
+  ]
+}

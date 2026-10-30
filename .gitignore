@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+build/
+dist/
+output/
+tmp/
+*.spec
+*.log
+.env
+*密钥*
+*.lnk
+.idea/
+.vscode/
+.pytest_cache/
+提交资料/
+*.zip
+
+# 打包产物（本仓库只保留源码，便携版请自行 build.py 构建）
+_internal/
+*.exe
+*.pyd
+*.dll
+!assets/msvc/*.dll
+
+# 系统
+Thumbs.db
+.DS_Store

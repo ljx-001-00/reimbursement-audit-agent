@@ -1,0 +1,82 @@
+[
+  {
+    "id": "BX-2026-0427-001",
+    "applicant": "周文翰",
+    "department": "技术研发部",
+    "submitted_on": "2026-04-20",
+    "requested_amount": "10000.00",
+    "file": "INV-01.pdf"
+  },
+  {
+    "id": "BX-2026-0427-002",
+    "applicant": "李欣怡",
+    "department": "行政人事部",
+    "submitted_on": "2026-04-21",
+    "requested_amount": "3390.00",
+    "file": "INV-02.pdf"
+  },
+  {
+    "id": "BX-2026-0427-003",
+    "applicant": "陈智浩",
+    "department": "战略投资部",
+    "submitted_on": "2026-04-22",
+    "requested_amount": "15000.00",
+    "file": "INV-03.pdf"
+  },
+  {
+    "id": "BX-2026-0427-004",
+    "applicant": "孙璐",
+    "department": "人才发展部",
+    "submitted_on": "2026-04-23",
+    "requested_amount": "8000.00",
+    "file": "INV-04.pdf"
+  },
+  {
+    "id": "BX-2026-0427-005",
+    "applicant": "王梓豪",
+    "department": "技术研发部",
+    "submitted_on": "2026-04-23",
+    "requested_amount": "6300.00",
+    "file": "INV-05.pdf"
+  },
+  {
+    "id": "BX-2026-0427-006",
+    "applicant": "黄佩瑶",
+    "department": "市场品牌部",
+    "submitted_on": "2026-04-24",
+    "requested_amount": "12500.00",
+    "file": "INV-06.pdf"
+  },
+  {
+    "id": "BX-2026-0427-007",
+    "applicant": "刘海洋",
+    "department": "销售运营部",
+    "submitted_on": "2026-04-25",
+    "requested_amount": "5000.00",
+    "file": "INV-07.pdf"
+  },
+  {
+    "id": "BX-2026-0427-008",
+    "applicant": "吴晓萌",
+    "department": "法务合规部",
+    "submitted_on": "2026-04-25",
+    "requested_amount": "20000.00",
+    "file": "INV-08.pdf"
+  },
+  {
+    "id": "BX-2026-0427-009",
+    "applicant": "钱思源",
+    "department": "技术研发部",
+    "submitted_on": "2026-04-26",
+    "requested_amount": "4000.00",
+    "file": "INV-09.png"
+  },
+  {
+    "id": "BX-2026-0427-010",
+    "applicant": "宋雅琪",
+    "department": "市场品牌部",
+    "submitted_on": "2026-04-26",
+    "requested_amount": "3180.00",
+    "file": "INV-10.png"
+  }
+]

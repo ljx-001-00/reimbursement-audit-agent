@@ -1,0 +1,38 @@
+{
+  "applications": 10,
+  "tabs": 4,
+  "invoice_fields": 13,
+  "window": [
+    39,
+    68,
+    1477,
+    1048
+  ],
+  "status": "GUI 已启动、10 笔原票已识别审核，修改及保存往返检查通过",
+  "checks": {
+    "home_demo_entry_visible": true,
+    "home_start_opens_new_task": true,
+    "loaded_10_original_invoices": true,
+    "top_navigation_visible": true,
+    "model_chip_pinned_inside_window": true,
+    "home_roundtrip_preserves_current_task_and_step": true,
+    "audited_all": true,
+    "application_edits_invalidate_checks": true,
+    "field_edits_have_history_and_restore": true,
+    "chinese_item_editor_saves_and_restores": true,
+    "page_warnings_need_explicit_confirmation_and_audit_event": true,
+    "background_work_locks_all_mutations": true,
+    "policy_edits_invalidate_all_checks": true,
+    "same_file_pages_highlight_separately": true,
+    "project_roundtrip_with_edits_without_key": true,
+    "ai_import_real_request_uses_selected_model_and_ocr": true,
+    "ai_import_preserves_existing_fields": true,
+    "ai_import_workbench_shows_evidence_and_keeps_step": true,
+    "assistant_ball_clears_primary_action": true,
+    "assistant_ball_inside_window": true,
+    "assistant_panel_opens_inside_window": true,
+    "assistant_answers_instantly": true,
+    "assistant_ball_restores": true
+  },
+  "capture_notes": []
+}

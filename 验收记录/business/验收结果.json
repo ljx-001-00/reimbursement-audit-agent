@@ -1,0 +1,444 @@
+{
+  "time": "2026-10-26T17:21:06",
+  "frozen": true,
+  "python": "3.10.11",
+  "tests": [
+    {
+      "name": "原始样例 BX-2026-0427-001",
+      "passed": true,
+      "detail": {
+        "status": "不通过",
+        "failures": [
+          "attachments",
+          "date"
+        ],
+        "fields": {
+          "invoice_number": "25112000000100012345",
+          "invoice_date": "2025-11-15",
+          "buyer_name": "北京蓝海智能科技有限公司",
+          "seller_name": "上海智慧云科技有限公司",
+          "buyer_tax_id": "91110108MA01XYZ7K9",
+          "seller_tax_id": "91310115MA1K7N0203",
+          "amount": "9900.99",
+          "tax_amount": "99.01",
+          "total": "10000.00",
+          "uppercase_total": "壹万圆整",
+          "tax_rate": "1%"
+        }
+      }
+    },
+    {
+      "name": "原始样例 BX-2026-0427-002",
+      "passed": true,
+      "detail": {
+        "status": "不通过",
+        "failures": [
+          "attachments",
+          "date"
+        ],
+        "fields": {
+          "invoice_number": "25112000000100023456",
+          "invoice_date": "2025-12-08",
+          "buyer_name": "北京蓝海智能科技有限公司",
+          "seller_name": "北京华信办公设备有限公司",
+          "buyer_tax_id": "91110108MA01XYZ7K9",
+          "seller_tax_id": "91110105MA0028XQ4N",
+          "amount": "3000.00",
+          "tax_amount": "390.00",
+          "total": "3390.00",
+          "uppercase_total": "叁仟叁佰玖拾圆整",
+          "tax_rate": "13%"
+        }
+      }
+    },
+    {
+      "name": "原始样例 BX-2026-0427-003",
+      "passed": true,
+      "detail": {
+        "status": "不通过",
+        "failures": [
+          "attachments",
+          "buyer_name",
+          "buyer_tax_id",
+          "date",
+          "required"
+        ],
+        "fields": {
+          "invoice_number": "25112000000100034567",
+          "invoice_date": "2025-10-20",
+          "buyer_name": "张文博",
+          "seller_name": "深圳锐思咨询有限公司",
+          "buyer_tax_id": "",
+          "seller_tax_id": "91440300MA5DQ3X87L",
+          "amount": "14563.11",
+          "tax_amount": "436.89",
+          "total": "15000.00",
+          "uppercase_total": "壹万伍仟圆整",
+          "tax_rate": "3%"
+        }
+      }
+    },
+    {
+      "name": "原始样例 BX-2026-0427-004",
+      "passed": true,
+      "detail": {
+        "status": "不通过",
+        "failures": [
+          "attachments",
+          "date",
+          "uppercase"
+        ],
+        "fields": {
+          "invoice_number": "25112000000100045678",
+          "invoice_date": "2026-01-10",
+          "buyer_name": "北京蓝海智能科技有限公司",
+          "seller_name": "杭州博学教育咨询有限公司",
+          "buyer_tax_id": "91110108MA01XYZ7K9",
+          "seller_tax_id": "91330106MA28RHQK19",
+          "amount": "7766.99",
+          "tax_amount": "233.01",
+          "total": "8000.00",
+          "uppercase_total": "伍仟圆整",
+          "tax_rate": "3%"
+        }
+      }
+    },
+    {
+      "name": "原始样例 BX-2026-0427-005",
+      "passed": true,
+      "detail": {
+        "status": "不通过",
+        "failures": [
+          "attachments",
+          "date",
+          "tax"
+        ],
+        "fields": {
+          "invoice_number": "25112000000100056789",
+          "invoice_date": "2025-11-28",
+          "buyer_name": "北京蓝海智能科技有限公司",
+          "seller_name": "成都鼎信软件有限公司",
+          "buyer_tax_id": "91110108MA01XYZ7K9",
+          "seller_tax_id": "91510100MA6CL6X235",
+          "amount": "6000.00",
+          "tax_amount": "300.00",
+          "total": "6300.00",
+          "uppercase_total": "陆仟叁佰圆整",
+          "tax_rate": "6%"
+        }
+      }
+    },
+    {
+      "name": "原始样例 BX-2026-0427-006",
+      "passed": true,
+      "detail": {
+        "status": "不通过",
+        "failures": [
+          "attachments",
+          "date",
+          "total"
+        ],
+        "fields": {
+          "invoice_number": "25112000000100067890",
+          "invoice_date": "2025-12-15",
+          "buyer_name": "北京蓝海智能科技有限公司",
+          "seller_name": "广州创艺设计有限公司",
+          "buyer_tax_id": "91110108MA01XYZ7K9",
+          "seller_tax_id": "91440101MA9UJP5R63",
+          "amount": "11320.75",
+          "tax_amount": "679.25",
+          "total": "12500.00",
+          "uppercase_total": "壹万贰仟伍佰圆整",
+          "tax_rate": "6%"
+        }
+      }
+    },
+    {
+      "name": "原始样例 BX-2026-0427-007",
+      "passed": true,
+      "detail": {
+        "status": "不通过",
+        "failures": [
+          "attachments",
+          "date"
+        ],
+        "fields": {
+          "invoice_number": "24062000000100078901",
+          "invoice_date": "2024-06-15",
+          "buyer_name": "北京蓝海智能科技有限公司",
+          "seller_name": "武汉会展服务有限公司",
+          "buyer_tax_id": "91110108MA01XYZ7K9",
+          "seller_tax_id": "91420100MAB7KQX021",
+          "amount": "4854.37",
+          "tax_amount": "145.63",
+          "total": "5000.00",
+          "uppercase_total": "伍仟圆整",
+          "tax_rate": "3%"
+        }
+      }
+    },
+    {
+      "name": "原始样例 BX-2026-0427-008",
+      "passed": true,
+      "detail": {
+        "status": "不通过",
+        "failures": [
+          "attachments",
+          "required",
+          "seller"
+        ],
+        "fields": {
+          "invoice_number": "25112000000100089012",
+          "invoice_date": "2026-02-18",
+          "buyer_name": "北京蓝海智能科技有限公司",
+          "seller_name": "南京泽明律师事务所",
+          "buyer_tax_id": "91110108MA01XYZ7K9",
+          "seller_tax_id": "",
+          "amount": "18867.92",
+          "tax_amount": "1132.08",
+          "total": "20000.00",
+          "uppercase_total": "贰万圆整",
+          "tax_rate": "6%"
+        }
+      }
+    },
+    {
+      "name": "原始样例 BX-2026-0427-009",
+      "passed": true,
+      "detail": {
+        "status": "不通过",
+        "failures": [
+          "attachments",
+          "date",
+          "invoice_number"
+        ],
+        "fields": {
+          "invoice_number": "251120013579",
+          "invoice_date": "2026-01-22",
+          "buyer_name": "北京蓝海智能科技有限公司",
+          "seller_name": "西安博译翻译有限公司",
+          "buyer_tax_id": "91110108MA01XYZ7K9",
+          "seller_tax_id": "91610100MAC02NPK48",
+          "amount": "3883.50",
+          "tax_amount": "116.50",
+          "total": "4000.00",
+          "uppercase_total": "肆仟圆整",
+          "tax_rate": "3%"
+        }
+      }
+    },
+    {
+      "name": "原始样例 BX-2026-0427-010",
+      "passed": true,
+      "detail": {
+        "status": "不通过",
+        "failures": [
+          "attachments",
+          "quantity"
+        ],
+        "fields": {
+          "invoice_number": "25112000000100109876",
+          "invoice_date": "2026-02-25",
+          "buyer_name": "北京蓝海智能科技有限公司",
+          "seller_name": "天津恒美印刷有限公司",
+          "buyer_tax_id": "91110108MA01XYZ7K9",
+          "seller_tax_id": "91120104MA070E3K58",
+          "amount": "3000.00",
+          "tax_amount": "180.00",
+          "total": "3180.00",
+          "uppercase_total": "叁仟壹佰捌拾圆整",
+          "tax_rate": "6%"
+        }
+      }
+    },
+    {
+      "name": "参考口径复算（对齐参考结果单）",
+      "passed": true,
+      "detail": {
+        "policy": "演示口径",
+        "max_days": 180,
+        "required_attachments": [
+          "发票"
+        ],
+        "reference_sheet": "通过 2 笔 / 不通过 8 笔",
+        "recomputed": {
+          "BX-2026-0427-001": "预审通过",
+          "BX-2026-0427-002": "预审通过",
+          "BX-2026-0427-003": "不通过",
+          "BX-2026-0427-004": "不通过",
+          "BX-2026-0427-005": "不通过",
+          "BX-2026-0427-006": "不通过",
+          "BX-2026-0427-007": "不通过",
+          "BX-2026-0427-008": "不通过",
+          "BX-2026-0427-009": "不通过",
+          "BX-2026-0427-010": "不通过"
+        },
+        "note": "规则逻辑未改，仅切换口径参数；结论与参考结果单逐笔一致。"
+      }
+    },
+    {
+      "name": "报销申请单申报信息抽取与预填",
+      "passed": true,
+      "detail": {
+        "file": "报销申请_含金额.pdf",
+        "extracted": {
+          "requested_amount": "325.00",
+          "submitted_on": "2026-10-15",
+          "applicant": "测试用户",
+          "department": "测试部门",
+          "purpose": "软件维护服务费"
+        },
+        "filled_into_blank_form": [
+          "申请人=测试用户",
+          "部门=测试部门",
+          "提交日期=2026-10-15",
+          "申请金额=325.00"
+        ],
+        "typed_values_kept": true
+      }
+    },
+    {
+      "name": "补充场景 TEST-PASS",
+      "passed": true,
+      "detail": {
+        "status": "预审通过",
+        "invoices": 1,
+        "files": [
+          "正常普通发票.pdf",
+          "报销申请.pdf",
+          "付款凭证.pdf"
+        ]
+      }
+    },
+    {
+      "name": "补充场景 TEST-SPECIAL",
+      "passed": true,
+      "detail": {
+        "status": "预审通过",
+        "invoices": 1,
+        "files": [
+          "专票多明细.pdf",
+          "报销申请.pdf",
+          "付款凭证.pdf"
+        ]
+      }
+    },
+    {
+      "name": "补充场景 TEST-MULTI",
+      "passed": true,
+      "detail": {
+        "status": "预审通过",
+        "invoices": 2,
+        "files": [
+          "正常普通发票.pdf",
+          "专票多明细.pdf",
+          "报销申请.pdf",
+          "付款凭证.pdf"
+        ]
+      }
+    },
+    {
+      "name": "补充场景 TEST-PAGES",
+      "passed": true,
+      "detail": {
+        "status": "预审通过",
+        "invoices": 2,
+        "files": [
+          "多页两张发票.pdf",
+          "报销申请.pdf",
+          "付款凭证.pdf"
+        ]
+      }
+    },
+    {
+      "name": "补充场景 TEST-DIFFERENCE",
+      "passed": true,
+      "detail": {
+        "status": "不通过",
+        "invoices": 1,
+        "files": [
+          "正常普通发票.pdf",
+          "报销申请.pdf",
+          "付款凭证.pdf"
+        ]
+      }
+    },
+    {
+      "name": "补充场景 TEST-MISSING",
+      "passed": true,
+      "detail": {
+        "status": "不通过",
+        "invoices": 1,
+        "files": [
+          "正常普通发票.pdf"
+        ]
+      }
+    },
+    {
+      "name": "补充场景 TEST-SCAN",
+      "passed": true,
+      "detail": {
+        "status": "预审通过",
+        "invoices": 1,
+        "files": [
+          "扫描专票.pdf",
+          "报销申请.pdf",
+          "付款凭证.pdf"
+        ]
+      }
+    },
+    {
+      "name": "补充场景 TEST-JPG",
+      "passed": true,
+      "detail": {
+        "status": "预审通过",
+        "invoices": 1,
+        "files": [
+          "专票图片.jpg",
+          "报销申请.pdf",
+          "付款凭证.pdf"
+        ]
+      }
+    },
+    {
+      "name": "坏文件与空白图片隔离",
+      "passed": true,
+      "detail": "损坏/空白单据记录错误，同批后续有效单据仍能识别；原大图已通过OCR场景。"
+    },
+    {
+      "name": "在线工具流程（模拟）",
+      "passed": true,
+      "detail": "三项工具实际分派成功；仅模拟模型响应，无真实网络请求。"
+    },
+    {
+      "name": "联网异常与无密钥回退",
+      "passed": true,
+      "detail": "服务超时、无密钥均完成本地审核；未请求付费模型。"
+    },
+    {
+      "name": "报告导出与内容完整性",
+      "passed": true,
+      "detail": {
+        "原始10笔审核报告.pdf": {
+          "pages": 30,
+          "applications": 10,
+          "bytes": 181785
+        },
+        "补充场景审核报告.pdf": {
+          "pages": 28,
+          "applications": 8,
+          "bytes": 150031
+        }
+      }
+    }
+  ],
+  "online_real": "未执行：需要用户本机配置免费 API 密钥",
+  "notes": [
+    "参考结果单中的90天判定存在矛盾，按真实日期重算。",
+    "原10笔均无报销申请/付款凭证，默认演示制度下如实判缺附件。",
+    "模型工具流程及异常回退使用模拟响应测试，不等同于真实API联通。"
+  ],
+  "passed": 24,
+  "total": 24,
+  "all_passed": true
+}
